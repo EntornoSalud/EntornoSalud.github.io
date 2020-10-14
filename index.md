@@ -6,9 +6,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<body class="w3-black w3-content" style="max-width:1600px">
 
-<h1 class="w3-black w3-center w3-padding-24">ES</h1>
+<h1>ES</h1>
 <p>Página de Github</p>
 </body>
 </html>
