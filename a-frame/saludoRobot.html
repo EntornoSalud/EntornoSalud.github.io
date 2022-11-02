@@ -16,10 +16,10 @@
     <a-entity class="environment" position="0 5.5 2.8" light="intensity: 0.9; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10; type: point" visible=""></a-entity>
     <a-entity camera="" look-controls="enabled:false" orbit-controls="autoRotate:true;autoRotateSpeed:0.01; target: 0 1.6 -0.5; minDistance: 0.5; maxDistance: 180; initialPosition: 0 3 5"></a-entity>
     <a-assets>
-        <a-asset-item id="robot" src="https://entornosalud.github.io/assets/Robot.glb" shadow="receive: true"></a-asset-item>
+        <a-asset-item id="robot" src="https://entornosalud.github.io/assets/anatomia.glb" shadow="receive: true"></a-asset-item>
     </a-assets>
     <a-entity gltf-model="#robot" animation-mixer="clip:Wave; timeScale:0.5;"></a-entity>
-    <a-entity text="value: Hola experiencias inmersivas; color: #FAFAFA; width: 6; anchor: align" position="-2.5 1 2" animation="property:position; to:  -2.5 1.5 2; dir: alternate; dur: 4000; easing: linear; loop: true"></a-entity>
+    <a-entity text="value: Hola experiencias inmersivas. Anatomia!; color: #FAFAFA; width: 6; anchor: align" position="-2.5 1 2" animation="property:position; to:  -2.5 1.5 2; dir: alternate; dur: 4000; easing: linear; loop: true"></a-entity>
     </a-scene>
   </body>
 </html>
